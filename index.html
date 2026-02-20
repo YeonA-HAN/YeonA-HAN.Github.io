@@ -1,15 +1,164 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
-  <title>나의 첫 GitHub 사이트</title>
-  <style>
-    body { font-family: sans-serif; text-align: center; padding: 100px; background: #f0f8ff; }
-    h1 { color: #2c3e50; }
-  </style>
+  <title>한연아 포트폴리오</title>
+
+  <meta name="Subject" content="포트폴리오">
+  <meta name="Title" content="한연아 포트폴리오">
+  <meta name="Keywords" content="웹 개발자 포트폴리오">
+  <meta name="Description" content="항상 반응적이고 확장이 가능한 웹을 개발하며 풀스택 개발자로 될 꿈을 꾸고있는 백엔드개발자">
+  <meta name="Author" content="한연아">
+  <meta name="Publisher" content="YinSeon, Lee">
+  <meta name="Classification" content="포트폴리오">
+  <meta name="Location" content="Seoul Korea">
+  <meta name="Author-Date" content="2025.10.6">
+  <meta name="Copyright" content="한연아">
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <script src="js/plugins/jquery-1.12.3.js"></script>
+  <script src="js/plugins/jquery.easing.min.js"></script>
+  <script src="js/plugins/wow.min.js"></script>
+  <script src="js/function.js"></script>
 </head>
+
 <body>
-  <h1>안녕하세요! GitHub Pages 성공 🎉</h1>
-  <p>이제 여기에 원하는 내용, 사진, 링크 등을 넣으면 됩니다~</p>
+  <div id="wrap">
+    <header>
+      <div class="container">
+        <h2 class="sr-only">한연아 포트폴리오 메뉴</h2>
+
+        <nav>
+          <ul class="gnb clearfix">
+            <li class="on"><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <hr>
+
+    <section id="home" class="content0">
+      <div class="container">
+        <p>CREATIVE YEONA, HAN</p>
+        <p>PORTFOLIO<br>VOL.1</p>
+        <h1>WEB<br>Developer<br><span class="name">한연아</span></h1>
+      </div>
+    </section><!--end of main home-->
+
+    <hr>
+
+    <section id="aboutme" class="content1 clearfix wow fadeIn" data-wow-delay="100ms">
+      <div class="content1-left">
+        <h2>About me</h2>
+
+        <a href="cv.pdf" title="한연아 이력서 보러가기" target="_blank">
+          <p class="img">더 알아보기</p>
+          <p class="link">CLICK HERE!</p>
+        </a>
+        <div class="about_bg"></div>
+      </div><!--end of left-->
+
+      <div class="content1-right">
+        <div class="profile">
+          <h2 class="sr-only">프로필</h2>
+
+          <ul class="clearfix">
+            <li>
+              이름 : 한연아<br>
+              나이 : 31세<br>
+              학력 : 경기대학교 컴퓨터공학과 졸업<br>   
+              경력 사항 : 2023.02~2025.10 (주)집현전소프트 대리<br>
+						1365포털 관리자 시스템 유지보수
+            </li>
+
+            <li>
+              자격증 : 정보처리산업기사 / 한국산업인력공단<br>
+					  워드프로세서 1급 / 대한상공회의소 <br>
+            </li>
+
+            <li>
+              사회 경험 :<br>
+              &middot; 2014.7 - 2014.8 가평군, 도서, 하천관련 DB구축사업<br>
+              &middot; 2015.7.27 - 2015.8.28 경기연구원 행정인턴, GRI 연구과제 아이디어 제안, 원내특강<br>
+            </li>
+          </ul>
+
+          <button class="prev">이전</button>
+          <button class="on next">다음</button>
+        </div><!--end of profile-->
+
+        <div class="tag">
+          <h2 class="sr-only">나만의 키워드 태그</h2>
+
+          <ul class="clearfix">
+            <li><a title="프로필을 확인하세요!">#경력</a></li>
+            <li><a title="포트폴리오 둘러보기">#JSP</a></li>
+            <li><a title="포트폴리오 둘러보기">#JAVA</a></li>
+			      <li><a title="포트폴리오 둘러보기">#PHP</a></li>
+            <li><a title="기획안 보러가기">#웹기획</a></li>
+            <li><a title="포트폴리오 둘러보기">#특기는 코딩</a></li>
+          </ul>
+        </div><!--end of tag-->
+      </div><!--end of right-->
+    </section><!--end of about me-->
+
+    <hr>
+
+    <section id="skills" class="content2 wow fadeIn" data-wow-delay="100ms">
+      <h2>I can do</h2>
+
+      <ol class="skill clearfix">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Javscript</li>
+        <li>JQuery</li>
+      </ol>
+
+      <h2>and I can do too</h2>
+
+      <ol class="tool clearfix">
+        <li>Visual Studio Code</li>
+        <li>Brackets</li>
+        <li>EditPlus</li>
+      </ol>
+    </section><!--end of skills-->
+
+    <hr>
+
+    <section id="contact" class="content5 wow fadeIn" data-wow-delay="100ms">
+      <h2>Contact</h2>
+      <div class="contact_img"></div>
+
+      <div class="container">
+        <p>
+          "단순한 백엔드개발 뿐아니라,<br>
+          <strong>시스템 설계와 프로젝트관리까지 맡아 수행하는 풀스택개발자를 목표</strong>로 하는<br>
+          <strong>웹 개발자, 한연아</strong>가 되겠습니다."
+        </p>
+        <p>
+          연락처 : suchpretty@hanmail.net <br>
+        </p>
+      </div>
+    </section><!--end of contact-->
+
+    <hr>
+
+    <footer>
+      <address>
+        본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+        &copy; 2025 YeonA, Han. All Rights Reserved.
+      </address>
+    </footer>
+  </div>
 </body>
+
 </html>
